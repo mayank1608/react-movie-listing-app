@@ -1,0 +1,28 @@
+// Override default variables before the import
+/*$body-bg: #000;*/
+.card{
+	transition:0.5s;
+		box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+	&:hover{
+		transform: scale(1.05);
+	}
+}
+.heading{
+background: rgba(255,124,216,1);
+background: -moz-linear-gradient(top, rgba(255,124,216,1) 0%, rgba(253,137,215,0.78) 49%, rgba(252,236,252,0.55) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,124,216,1)), color-stop(49%, rgba(253,137,215,0.78)), color-stop(100%, rgba(252,236,252,0.55)));
+background: -webkit-linear-gradient(top, rgba(255,124,216,1) 0%, rgba(253,137,215,0.78) 49%, rgba(252,236,252,0.55) 100%);
+background: -o-linear-gradient(top, rgba(255,124,216,1) 0%, rgba(253,137,215,0.78) 49%, rgba(252,236,252,0.55) 100%);
+background: -ms-linear-gradient(top, rgba(255,124,216,1) 0%, rgba(253,137,215,0.78) 49%, rgba(252,236,252,0.55) 100%);
+background: linear-gradient(to bottom, rgba(255,124,216,1) 0%, rgba(253,137,215,0.78) 49%, rgba(252,236,252,0.55) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7cd8', endColorstr='#fcecfc', GradientType=0 );
+	color: blue;
+	margin-bottom:50px;
+	padding: 50px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.20);
+	box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.20);
+}
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
