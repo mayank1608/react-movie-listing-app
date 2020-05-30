@@ -40,7 +40,7 @@ const Movies= [
 		"link":"https://www.bollywoodmdb.com/movies/taanaji-the-unsung-warrior/16366",	
 	},
 	{
-		"id":5,
+		"id":6,
 		"name":"Jai Mummy Di",
 		"imgsrc":"https://cdn.bollywoodmdb.com/movies/largethumb/2019/jai-mummy-di/poster.jpg",
 		"desc":"Jai Mummy Di is a light-hearted family comedy that portrays the trials and tribulations a couple has to undergo due to the dynamics between their respective mothers.",
